@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Site qui répertorie les nouvelles fonctionnalités des CSS">
     <title>Jouons avec les nouvelles fonctionnalités CSS</title>
     <link rel="stylesheet" href="./src/styles/styles.css" />
   </head>
@@ -21,10 +22,57 @@
 
     <main class="main">
       <div class="page">
-        <h1 class="title title--lvl1">Nouvelles fonctionnalités</h1>
+        <h1 class="title title--lvl1 page__title">Nouvelles fonctionnalités CSS à partir de 2024</h1>
+
+        <section class="page__section">
+          <h2 class="title title--lvl2">Des nouvelles fonctionnalités vont être stables</h2>
+          <p>En 2024, plusieurs fonctionnalités vont devenir stablent. Et c'est pourquoi ce répertoire var répertorier toutes ces bonnes informations.</p>
+
+          <div class="page__articles">
+            <article class="article">
+              <h3 class="title title--lvl3">Le @layer</h3>
+              <p class="article__text">
+                Je vous laisse visiter le lien ci-dessous.<br/>
+                <span>
+                  Visiter :
+                  <a href="https://developer.mozilla.org/fr/docs/Web/CSS/@layer">@Layer du MDN</a>
+                </span>
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section class="page__section">
+          <h2 class="title title--lvl2">Autres liens intéressants</h2>
+
+          <div class="page__articles">
+            <article class="article">
+              <h3 class="title title--lvl3 title--green">Un générateur de couleurs accessible</h3>
+              <p class="article__text">
+                Ce générateur vous permet de trouver les couleurs optimale pour la charte de votre application.<br/>
+                <span>
+                  Visiter : 
+                  <a lang="en" href="https://www.learnui.design/tools/accessible-color-generator.html">Accessible color generator</a>
+                </span>
+              </p>
+            </article>
+  
+            <article class="article">
+              <h3 class="title title--lvl3 title--green">Un générateur de SVG en CSS</h3>
+              <p class="article__text">
+                Ce générateur vous permet de modifier votre SVG en CSS à incorporer dans les propriétés <code>content: "";</code>.<br/>
+                <span>
+                  Visiter : 
+                  <a lang="en" href="https://www.svgbackgrounds.com/tools/svg-to-css/">SVG to CSS</a>
+                  of @MattVisiwig
+                </span>
+              </p>
+            </article>
+          </div>
+        </section>
       </div>
     </main>
 
-    <footer role="contentinfo" class="footer"> Mon pied de site </footer>
+    <footer role="contentinfo" class="footer"> ©Copyright 2023 Leytmc </footer>
   </body>
 </html>

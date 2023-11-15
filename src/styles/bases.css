@@ -2,6 +2,8 @@ body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+	font-family: 'Assistant', sans-serif;
+	font-family: 'Ubuntu', sans-serif;
 }
 
 header,
@@ -10,12 +12,81 @@ footer {
   margin: 1.5rem;
 }
 
+header {
+	border-bottom: 2px solid var(--color-blue);
+	padding: 2rem 0;
+}
+
+footer {
+	border-top: 2px solid var(--color-orange);
+	padding: 2rem 0;
+}
+
+main {
+	padding: 1rem 0;
+}
+
+.title--lvl1 {
+	font-size: calc(2.5rem * 0.8);
+}
+
+.title--lvl2 {
+	font-size: calc(2.25rem * 0.8);
+}
+
+.title--lvl3 {
+	font-size: calc(2rem * 0.8);
+}
+
+.title--lvl4 {
+	font-size: calc(1.75rem * 0.8);
+}
+
+.title--lvl5 {
+	font-size: calc(1.5rem * 0.8);
+}
+
+.title--lvl6 {
+	font-size: calc(1.25rem * 0.8);
+}
+
+code {
+  background-color: var(--color-orange);
+  color: var(--color-white);
+  padding: 0.16rem;
+}
+
 @media (width <= 64rem) {
   header,
   main,
   footer {
     margin: 1.5rem 2rem;
   }
+
+  .title--lvl1 {
+    font-size: 2.5rem;
+  }
+  
+  .title--lvl2 {
+    font-size: 2.25rem;
+  }
+  
+  .title--lvl3 {
+    font-size: 2rem;
+  }
+  
+  .title--lvl4 {
+    font-size: 1.75rem;
+  }
+  
+  .title--lvl5 {
+    font-size: 1.5rem;
+  }
+  
+  .title--lvl6 {
+    font-size: 1.25rem;
+  }
+  
 }
 
 @media (width <= 85.375rem) {
@@ -31,6 +102,6 @@ footer {
   main,
   footer {
     margin: 1.5rem auto;
-    max-width: 96rem;
+    max-width: var(--breakpoint-lg);
   }
 }

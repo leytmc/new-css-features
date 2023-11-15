@@ -1,0 +1,42 @@
+.article {
+    border: 2px solid var(--color-grey);
+    border-radius: 1.875rem;
+    padding: 1rem;
+}
+
+.article .title {
+    /* color: var(--color-white); */
+    margin-top: 0;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    color: black;
+    text-align: center;
+    padding: 1rem;
+}
+
+.article .title::before {
+    content: url('../images/polygon.svg');
+    position: absolute;
+    bottom: 70%;
+    left: 50%;
+    height: 100px;
+    width: 110%;
+    z-index: -1;
+    transform: translateX(-50%);
+}
+
+.article .title--green::before {
+    content: url('../images/polygon-green.svg');
+}
+
+/* .article .title::before {
+    content: url('data:image/svg+xml,<svg viewBox="10 80 100 20" height="auto" width="auto" xmlns="http://www.w3.org/2000/svg"><polygon id="polygon" points="0 0, 100 70, 90 100, 40 100, 10 100, 0 70, 0 0" fill="currentColor"/></svg>');
+    fill: #007eb0;
+    color: var(--color-blue);
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+} */

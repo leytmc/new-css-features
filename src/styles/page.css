@@ -1,3 +1,15 @@
-.title--lvl1 {
+.page__title {
     text-align: center;
+}
+
+.page__articles {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-rows: auto;
+    gap: 1.5rem;
+}
+
+.page__section {
+    border-top: 1px solid var(--color-green);
+    padding: 1.5rem;
 }

@@ -1,0 +1,22 @@
+/* 
+* Need to know
+* The basics colors are for the use of small and larg bold in white color (for both)
+* The -lgbld colors (large & bold) are for the use of black text
+*/
+
+:root {
+    --color-white: #fff;
+    --color-blue: #007eb0;
+    --color-blue-lgbld: #0096ff;
+    --color-red: #b42020;
+    --color-red-lgbld: #b46767;
+    --color-green: #2d8637;
+    --color-green-lgbld: #00a412;
+    --color-orange: #c15601;
+    --color-orange-lgbld: #daa010;
+    --color-purple: #a529c1;
+    --color-purple-lgbld: #b67cc1;
+    --color-grey: #747474;
+    --color-grey-lgbld: #aaa;
+    --color-black: #000;
+}
